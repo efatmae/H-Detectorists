@@ -2,8 +2,6 @@ Project Description:
 =====================
 This project is an online platform to detect hate speech in an online document.
 
-![alt text](H-detectorists_demo.png)
-
 
 How to use:
 ==============
