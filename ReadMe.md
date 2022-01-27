@@ -35,7 +35,7 @@ To run the demo, Make sure to change directory to the demo folder, then run the 
 
 streamlit run demo.py
 
-
+For the design to work, make sure that the settings of the web page set change to dark theme
 
 
 
