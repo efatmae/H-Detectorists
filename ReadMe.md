@@ -1,7 +1,8 @@
 Project Description:
 =====================
-This project is an online platform to detect hate speech in an online document.
+This project is an online platform to detect hate speech in documents.
 
+![alt text](H-detectorists_demo.png "Title")
 
 How to use:
 ==============
@@ -35,7 +36,7 @@ To run the demo, Make sure to change directory to the demo folder, then run the 
 
 streamlit run demo.py
 
-For the design to work, make sure that the settings of the web page set change to dark theme
+
 
 
 

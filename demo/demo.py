@@ -202,10 +202,10 @@ def page_home():
                                    "Aggression": aggression_predictions})
         #Create the detailes resutls table to be exported
         outcomes_df_header = pd.MultiIndex.from_product([['Sexism','Racism','Aggression'],
-                                     ['T/F','probability']])
-        rows_data = [sexism_tf, sexism_prct,
-                    racism_tf, racism_prct,
-                    aggression_tf, aggression_prct]
+                                     ['T/F','%','Score']])
+        rows_data = [sexism_tf, sexism_prct, sexism_score,
+                    racism_tf, racism_prct, racism_score,
+                    aggression_tf, aggression_prct, aggression_score]
         s_data = list(map(list, zip(*rows_data)))
         outcomes_df = pd.DataFrame(s_data,columns=outcomes_df_header)
         outcomes_df.insert(0, 'Sentences', sentences)
